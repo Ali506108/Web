@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма поиска фильма</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            width: 100%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-column {
+            flex: 1;
+            margin-right: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        button[type="submit"] {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/search" method="get">
+        <div class="form-column">
+            <label for="filmName">Название фильма:</label>
+            <input type="text" id="filmName" name="filmName" placeholder="Название фильма">
+
+            <label for="cinema">Кинотеатры:</label>
+            <select id="cinema" name="cinema">
+                <option value="paramountCity">Кинотеатр Paramount City</option>
+            </select>
+        </div>
+
+        <div class="form-column">
+            <label for="showtime">Время сеанса:</label>
+            <select id="showtimeHour" name="showtimeHour">
+
+                <option value="15">15</option>
+                <option value="1+">16</option>
+
+                <option value="17">17</option>
+                <option value="18">18</option>
+
+                <option value="19">19</option>
+                <option value="20">20</option>
+                
+                <option value="21">21</option>
+                <option value="22">22</option>
+            </select>
+            
+            <select id="showtimeMinute" name="showtimeMinute">
+                <option value="30">30</option>
+            </select>
+        </div>
+
+        <button type="submit">Поиск Фильма</button>
+    </form>
+</body>
+</html>
