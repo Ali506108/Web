@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: darkred;
+    padding: 40px;
+    color: white;
+}
+
+header h1 {
+    float: left;
+    font-size: 22px;
+    
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    color:white;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+    color:white;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+.pad_header{
+    background-color: grey;
+    color:white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding:50px;
+}
+.pass{
+    padding: 15px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.hello_txt{
+    text-align: center;
+    color: black;
+}
+.hello{
+    text-align: center;
+}
+
+main section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    flex: 0 0 calc(33.33% - 40px); 
+}
+
+button{
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70px;
+    height: 50px;
+}
+
+.img_crone {
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.h1s {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+main section p {
+    margin-bottom: 10px;
+    color:black;
+    font-size: 5px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.registration-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 300px; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+.pass {
+    padding: 15px;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+
+
+.registration-form h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+img{
+    width: 500px;
+    height:500px;
+}
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.main-news {
+    margin: 20px;
+}
+.main-news img {
+    width: 100%;
+}
+main-news h2 {
+    margin: 0;
+}
+.main-news p {
+    color: #6c757d;
+}
+
+
+.containerser {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 10px;
+}
+
+.panel {
+  background-color: white;
+  border: 2px solid blue;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.panel img {
+  width: 100%;
+  height: auto;
+}
+
+.panel p {
+  color: black;
+}
