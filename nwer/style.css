@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.navBar{
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+    color: white;
+    padding: 20px 20px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.profile{
+    border: 1px solid violet;
+    flex-basis: 20%;
+    font-size: 20px;
+}
+.text{
+    border: 1px solid black;
+}
+.text p{
+    font-size: 18px;
+    color: grey;
+}
+.ulProfile{
+    list-style-type: none;
+    padding: 0;
+}
+.ulProfile li{
+    border: 1px solid lightgrey;
+    padding: 5px;
+    font-size: 16px;
+}
+.news{
+    border: 1px solid red;
+    flex-basis: 50%;
+}
+.block{
+    border: 1px solid blue;
+    flex-basis: 25%;
+}
+.cardNew{
+    border: 1px solid lightgrey;
+}
+.cardNew-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.cardNew-text{
+    padding: 0 10px;
+}
+
+.profile {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .profile .name {
+    font-weight: bold;
+  }
+  .profile .age-location {
+    color: #888;
+  }
+  .profile button {
+    margin-right: 5px;
+  }
+
+  .containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh; /* Подстройте по необходимости */
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
