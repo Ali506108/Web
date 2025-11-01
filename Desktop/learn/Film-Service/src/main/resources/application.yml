@@ -1,0 +1,12 @@
+spring:
+  rsocket:
+    server:
+      port: 9898
+  data:
+    mongodb:
+      uri: mongodb://root:root@mongo:27017/film-service?authSource=admin
+  application:
+    name: Film-Service
+
+server:
+  port: 8084

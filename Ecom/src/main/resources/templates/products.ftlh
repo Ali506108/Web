@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITLAB News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="txt_h1">BITLAB News</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="contact.html">логин</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="pass">
+
+    </div>
+        <div class="Rectangle2" style="width: 100%; height: 100%; background: #16D4A7; display: flex; align-items: center; justify-content: center;">
+            <img class="Khabib1" style="width: 598px; height: 472px;" src="phots/Khabib.jpg" />
+            <div class="ForExample2IsWrittenAsIiInRomanNumeralJustTwoOnesAddedTogether12IsWrittenasXiiWhichIsSimplyXIiTheNumber27IsWrittenAsXxviiWhichIsXxVIiRomanNumeralsAreUsuallyWrittenLargestToSmallestFromLeftToRightHoweverThenumeralForFourIsNotIiiiInsteadTheNumberFourIsWrittenAsIvBecauseTheOneisBeforeTheFiveWeSubtractItMakingFourTheSamePrincipleAppliesToTheNumberNineWhichIsWrittenAsIxThereAreSixInstancesWhereSubtractionIsUsedReadMore" style="width: 1055px; height: 328px; text-align: center;">
+                <span style="color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II. Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five, we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used</span>
+                <span style="color: black; font-size: 12px; font-family: Inter; font-weight: 400; text-decoration: underline; word-wrap: break-word">Read More<br/></span>
+            </div>
+            <div class="KhabibToConorItIsTheSameThing" style="width: 216px; height: 25px; text-align: center; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word;"></div>
+        </div>
+
+<div class="pass">
+
+    </div>
+        <div class="containerser">
+          <div class="panel">
+            <img src="phots/eden.jpg" alt="Character 1">
+            <p>Khabib to Conor: 'It's the same thing'</p>
+          </div>
+          <div class="panel">
+            <img src="phots/eden.jpg" alt="Character 2">
+            <p>Khabib to Conor: 'It's the same thing'</p>
+          </div>
+          <div class="panel">
+            <img src="phots/eden.jpg" alt="Character 3">
+            <p>Khabib to Conor: 'It's the same thing'</p>
+          </div>
+          <div class="panel">
+            <img src="phots/eden.jpg" alt="Character 4">
+            <p>Khabib to Conor: 'It's the same thing'</p>
+          </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2022 Developed by BITLAB TEAM, All Rights Reserved</p>
+    </footer>
+</body>
+</html>

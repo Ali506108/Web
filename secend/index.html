@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма регистрации</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        td {
+            padding: 10px;
+        }
+        input[type="text"], select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Имя:</td>
+                <td><input type="text" name="name"></td>
+                <td>Фамилия:</td>
+                <td><input type="text" name="surname"></td>
+                <td>Логин:</td>
+                <td><input type="text" name="login"></td>
+            </tr>
+            <tr>
+                <td>Страна:</td>
+                <td>
+                    <select name="country">
+                        <option value="kazakhstan">Казахстан</option>
+                        <option value="usa">США</option>
+                        <option value="japon">Япония</option>
+                        <option value="Canada">Канада</option>
+                        <option value="UK">Великобритания</option>
+                    </select>
+                </td>
+                <td>Город:</td>
+                <td>
+                    <select name="city">
+                        <option value="almaty">Alamty</option>
+                        <option value="astana">Astana</option>
+                        <option value="london">london</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Manchester">Manchester</option>
+                        <option value="Lester">Lester</option>
+                        <option value="New-York">New-York</option>
+                        <option value="Boston">Boston</option>
+                    </select>
+                </td>
+                <td>Улица:</td>
+                <td><input type="text" name="street"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Загрузить данные">
+    </form>
+</body>
+</html>
+
+
